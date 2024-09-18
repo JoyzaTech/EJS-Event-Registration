@@ -1,0 +1,82 @@
+/* General body styling */
+@font-face {
+    font-family: 'jdot';
+    src: url('fonts/jdot.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('fonts/pixel-straight.ttf');
+}
+
+body {
+    font-family: 'jdot', sans-serif;
+    margin: 20px;
+    background-color: rgb(46, 46, 46);
+}
+
+/* Headings */
+h1, h2 {
+    color: #0099ff;
+    font-family: 'jdot';
+}
+
+/* List items */
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #0099ff;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    color: #ffffff;
+    font-family: monospace;
+    
+}
+
+/* Form styling */
+form {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Input fields, textarea, and buttons */
+input[type="text"],
+input[type="date"],
+textarea {
+    background-color: #333;
+    border: 1px solid #777;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Add this */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ff9d00;
+}
+
+button {
+    background-color: #ff9d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'pixel';
+    width: 100px;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: #cc7e00;
+}
